@@ -23,6 +23,7 @@
 
 #![no_std]
 #![feature(nll, exclusive_range_pattern)]
+#![allow(dead_code)]
 
 extern crate alloc;
 #[cfg_attr(test, macro_use)]

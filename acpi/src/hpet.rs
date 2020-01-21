@@ -15,7 +15,7 @@ pub enum PageProtection {
 #[derive(Debug)]
 pub struct HpetInfo {
     event_timer_block_id: u32,
-    base_address: usize,
+    pub base_address: usize,
     hpet_number: u8,
     /// The minimum number of clock ticks that can be set without losing interrupts (for timers in
     /// Periodic Mode)
